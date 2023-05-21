@@ -1,5 +1,5 @@
 # aframe-sub01
-Sub01 is a library of 749 bytes including three useful components created for me to be used with A-frame js framework. These components can make an object bounce, reload the scene or simulate a first-person breath on VR scene. 
+Sub01 is a library of 749 bytes including three useful components created for me to be used with A-frame js framework. These components can make an object bounce, reload the scene or simulate a first-person breathing animation on VR scene. 
 # Usage
 Simply add <script src="sub01.js"></script> between "head" tags and add to the needed a-frame object some of these components, and always AFTER the script call to a-frame. A well-stablished "cursor" object is needed for two of them.
 # sub01-bounce
