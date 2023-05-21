@@ -26,13 +26,10 @@
         init: function () {
           var el = this.el;
 
-          el.addEventListener('click', function () {
-            // Verifica si estamos en modo VR
-            if (AFRAME.utils.device.checkHeadsetConnected()) {
-              // Recarga la página sin salir del modo VR
+          el.addEventListener('click', function () { 
+            if (AFRAME.utils.device.checkHeadsetConnected()) { 
               document.location.reload();
-            } else {
-              // Si no estamos en modo VR, simplemente recarga la página
+            } else { 
               window.location.reload();
             }
           });
